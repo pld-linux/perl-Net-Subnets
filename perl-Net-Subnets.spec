@@ -8,7 +8,7 @@
 Summary:	Computing subnets in large scale networks
 Name:		perl-Net-Subnets
 Version:	0.21
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -20,8 +20,6 @@ BuildRequires:	perl-Test-Simple
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define		_noautoreq	'perl(anything_fake_or_conditional)'
 
 %description
 Very fast matches large lists of IP addresses against many CIDR
